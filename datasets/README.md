@@ -3,7 +3,6 @@ This subfolder is for putting various datasets.
 
 You can get
 - [Matte images](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/SynShadow.zip) for SynShadow
-- `SRD+_train.txt` and `SRD+_test.txt`: Train/test split for SRD+ dataset 
 
 **Note that these datasets are meant for education and research purposes only.**
 
@@ -54,6 +53,7 @@ Here are the pointers for some datasets used in this project.
         - [Paper(CVPR2017)](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qu_DeshadowNet_A_Multi-Context_CVPR_2017_paper.pdf)
         - Please contact [the authors](http://vision.sia.cn/our%20team/JiandongTian/JiandongTian.html) for getting the datasets.
         - [DHAN(AAAI2020)](https://arxiv.org/abs/1911.08718) is providing masks extracted from shadow and shadow-free image pairs at [here](https://uofmacau-my.sharepoint.com/:u:/g/personal/yb87432_umac_mo/EZ8CiIhNADlAkA4Fhim_QzgBfDeI7qdUrt6wv2EVxZSc2w?e=hZ0ruG)
+        - We found that the original train-test split of SRD is inappropriate since images coming from the identical background are both in the training and testing set. We re-split SRD so that there is no overlap of scenes in the two sets and removed near-duplicate images. The new split is called SRD+, and we provide `SRD+_train.txt` and `SRD+_test.txt` for list of the images for SRD+. 
     - [GTAV](https://drive.google.com/file/d/1ktOXJmMQL_6U2J03mks3yWh6EMWKjUmu/view)
         - [Paper(CVPRW2019)](https://arxiv.org/abs/1811.06604)
         - [Project](https://github.com/acecreamu/angularGAN)
