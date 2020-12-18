@@ -51,7 +51,7 @@ Model: [SP+M](https://arxiv.org/abs/1908.08628)
 |SynShadow->SRD+|SRD+|5.2|[results](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/results/removal/result_rem_spm_srd+_finetune_from_synshadow.zip) / [weights](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/trained_models/removal/rem_spm_srd+_finetune_from_synshadow.zip) / [precomputed_mask](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/precomputed_masks/precomp_mask_test_srd+_train_srd+_finetune_from_synshadow.zip)|
 |SynShadow|USR|-|[results](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/results/removal/result_rem_spm_usr_train_synshadow.zip) / [weights](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/trained_models/removal/rem_spm_synshadow.zip) / [precomputed_mask](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/precomputed_masks/precomp_mask_test_usr_train_synshadow.zip)|
 
-Model: DHAN
+Model: [DHAN](https://arxiv.org/abs/1911.08718)
 | Train | Test | RMSE |      |
 | :-: | :-: | :-: | :-: |
 |SynShadow->ISTD+|ISTD+|4.6|[results](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/results/removal/result_rem_dhan_istd+_finetune_from_synshadow.zip)|
