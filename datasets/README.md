@@ -31,7 +31,9 @@ You can get
 ```
 
 ### SynShadow
-Synthetic generation is generated during training using [this](https://github.com/naoto0804/SynShadow/blob/main/src/util/illum_affine_model.py#L141-L155).
+Synthetic shadow images are generated on-the-fly during training using [this function](https://github.com/naoto0804/SynShadow/blob/main/src/util/illum_affine_model.py#L141-L155).
+
+SynShadow dataset folder should be organized as follows:
 ```
 - SynShadow
     - matte
