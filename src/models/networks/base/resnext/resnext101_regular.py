@@ -7,13 +7,13 @@ from . import resnext_101_32x4d_
 
 
 class ResNeXt101(nn.Module):
-    # The model is downloaded from:
-    # https://drive.google.com/file/d/1EDUcaGNiakWO9Xvk9kWgkkcnTYZ6VQoT/view
     def __init__(self):
         backbone_path = str(Path(__file__).parent / 'resnext_101_32x4d.pth')
         super(ResNeXt101, self).__init__()
         net = resnext_101_32x4d_.resnext_101_32x4d
         if backbone_path is not None:
+            # The model is downloaded from:
+            # https://drive.google.com/file/d/1EDUcaGNiakWO9Xvk9kWgkkcnTYZ6VQoT/view
             weights = torch.load(backbone_path)
             # del weights['0.weight']
             net.load_state_dict(weights, strict=True)

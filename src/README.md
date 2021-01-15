@@ -17,7 +17,7 @@ For more details about arguments, please refer to -h option or the actual codes.
 
 ### Testing
 ```
-$ python test.py --model detect --netG dsd --dataset_root datasets/ISTD+ --name <IDENTIFIER>
+$ python test.py --model detect --netG dsd --dataset_root ../datasets/ISTD+ --name <IDENTIFIER>
 ```
 
 ### Quantitative Evaluation
@@ -47,12 +47,12 @@ do not forget to include the `/` after the name of the directory (e.g., `/tmp/fo
 ### Training
 If you use our proposed SynShadow datasets,
 ```
-$ python train.py --model detect --dataset_root datasets/SynShadow --dataset_mode synth --name <IDENTIFIER>
+$ python train.py --model detect --dataset_root ../datasets/SynShadow --dataset_mode synth --name <IDENTIFIER>
 ```
 
 If you use existing paired datasets,
 ```
-$ python train.py --model detect --dataset_root datasets/<DATASET_NAME> --name <IDENTIFIER>
+$ python train.py --model detect --dataset_root ../datasets/<DATASET_NAME> --name <IDENTIFIER>
 ```
 
 ## Removal
