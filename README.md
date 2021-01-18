@@ -1,4 +1,4 @@
-# Learning from Synthetic Shadows for Shadow Detection and Removal (IEEE TCSVT 2021)
+# Learning from Synthetic Shadows for Shadow Detection and Removal (IEEE TCSVT 2020)
 
 ## Overview
 This repo is for the paper "[Learning from Synthetic Shadows for Shadow Detection and Removal](https://arxiv.org/abs/2101.01713)". We present SynShadow, a novel large-scale synthetic shadow/shadow-free/matte image triplets dataset and pipeline to synthesize it. We further show how to use SynShadow for robust and efficient shadow detection and removal.
@@ -13,14 +13,14 @@ In this repo, we provide
 If you find this code or dataset useful for your research, please cite our paper:
 
 ```
-@article{inoue_2021_tcsvt,
+@article{inoue_2020_tcsvt,
   author = {Inoue, Naoto and Yamasaki, Toshihiko},
   title = {Learning from Synthetic Shadows for Shadow Detection and Removal},
   journal = {IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)},
   volume={XX},
   number={XX},
   pages={XXXX-XXXX},
-  year={2021},
+  year={2020},
   publisher={IEEE}
 }
 ```
