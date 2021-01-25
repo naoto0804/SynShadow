@@ -1,9 +1,11 @@
 ## Preprocess
 
 ### Software Requirements
-- Python 3.5+
+- Python 3.5~3.7
 - PyTorch 1.2+
 - TorchVision 0.4+
+
+Note that Python 3.8 is not supported yet, since it requires Tensorflow2+.
 
 For other libraries, please refer to `requirements.txt`. We recommend to install them by `pip install -r requirements.txt`.
 
