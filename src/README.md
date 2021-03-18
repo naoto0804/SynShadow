@@ -1,13 +1,12 @@
 ## Preprocess
 
 ### Software Requirements
+**Please use [Dockerfile](./Dockerfile) (added in Mar. 2021) for easy installation.**
+
 - Python 3.5~3.7
 - PyTorch 1.2+
 - TorchVision 0.4+
-
-Note that Python 3.8 is not supported yet, since it requires Tensorflow2+.
-
-For other libraries, please refer to `requirements.txt`. We recommend to install them by `pip install -r requirements.txt`.
+- Tensorflow 1+ (Note: this makes us be unable to use Python 3.8)
 
 For quantitative evaluation of shadow detection and removal, matlab is required. (I used R2016b. I'm not sure whether other versions work.)
 
