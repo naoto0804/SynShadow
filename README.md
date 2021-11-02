@@ -13,15 +13,15 @@ In this repo, we provide
 If you find this code or dataset useful for your research, please cite our paper:
 
 ```
-@article{inoue_2020_tcsvt,
-  author = {Inoue, Naoto and Yamasaki, Toshihiko},
-  title = {Learning from Synthetic Shadows for Shadow Detection and Removal},
-  journal = {IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)},
-  volume={XX},
-  number={XX},
-  pages={XXXX-XXXX},
-  year={2020},
-  publisher={IEEE}
+@article{inoue2021learning,
+  title={{Learning from Synthetic Shadows for Shadow Detection and Removal}},
+  author={Inoue, Naoto and Yamasaki, Toshihiko},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  year={2021},
+  volume={31},
+  number={11},
+  pages={4187-4197},
+  doi={10.1109/TCSVT.2020.3047977}
 }
 ```
 
