@@ -1,7 +1,7 @@
 # Overview
 This subfolder is for putting various datasets.
 
-You can get
+Please at first download
 - [Matte images](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/SynShadow.zip) for SynShadow
 
 **Note that these datasets are meant for education and research purposes only.**
