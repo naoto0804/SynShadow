@@ -80,7 +80,7 @@ If you use our proposed SynShadow datasets,
 $ python train.py --dataset_root ../datasets/SynShadow --dataset_mode synth --name <IDENTIFIER>
 ```
 
-If you use existing paired datasets,
+If you use existing paired datasets (optionally starting from pre-trained checkpoint),
 ```
-$ python train.py --dataset_root ../datasets/ISTD+ --name <IDENTIFIER>
+$ python train.py --dataset_root ../datasets/ISTD+ --name <IDENTIFIER> (--finetune_from <CHECKPOINT>)
 ```
