@@ -2,7 +2,7 @@
 This subfolder is for putting various datasets.
 
 Please at first download
-- [Matte images](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/SynShadow.zip) for SynShadow
+- [Matte images](https://drive.google.com/file/d/1RErNUbkstaiCchYzbe8wPYTEdU-Yp7o0/view?usp=drive_link) for SynShadow
 
 **Note that these datasets are meant for education and research purposes only.**
 
