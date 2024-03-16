@@ -45,17 +45,17 @@ ALl the results are in 480x640. For the pre-trained weights, we only provide SP+
 Model: [SP+M](https://arxiv.org/abs/1908.08628)
 | Train | Test | RMSE |      |
 | :-: | :-: | :-: | :-: |
-|SynShadow|ISTD+|4.9|[results](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/results/removal/result_rem_spm_istd+_train_synshadow.zip) / [weights](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/trained_models/removal/rem_spm_synshadow.zip) / [precomputed_mask](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/precomputed_masks/precomp_mask_test_istd+_train_synshadow.zip)|
-|SynShadow->ISTD+|ISTD+|4.0|[results](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/results/removal/result_rem_spm_istd+_finetune_from_synshadow.zip) / [weights](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/trained_models/removal/rem_spm_istd+_finetune_from_synshadow.zip) / [precomputed_mask](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/precomputed_masks/precomp_mask_test_istd+_train_istd+_finetune_from_synshadow.zip)|
-|SynShadow|SRD+|5.7|[results](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/results/removal/result_rem_spm_srd+_train_synshadow.zip) / [weights](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/trained_models/removal/rem_spm_synshadow.zip) / [precomputed_mask](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/precomputed_masks/precomp_mask_test_srd+_train_synshadow.zip)|
-|SynShadow->SRD+|SRD+|5.2|[results](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/results/removal/result_rem_spm_srd+_finetune_from_synshadow.zip) / [weights](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/trained_models/removal/rem_spm_srd+_finetune_from_synshadow.zip) / [precomputed_mask](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/precomputed_masks/precomp_mask_test_srd+_train_srd+_finetune_from_synshadow.zip)|
-|SynShadow|USR|-|[results](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/results/removal/result_rem_spm_usr_train_synshadow.zip) / [weights](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/trained_models/removal/rem_spm_synshadow.zip) / [precomputed_mask](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/precomputed_masks/precomp_mask_test_usr_train_synshadow.zip)|
+|SynShadow|ISTD+|4.9|[results](https://drive.google.com/file/d/1r4uM280UIh1XLilHJoPWWiRQ6vBy0fmZ/view?usp=drive_link) / [weights](https://drive.google.com/file/d/10wLm8nVXdmXeBiSO5HfnGT3WNY6AvO8m/view?usp=drive_link) / [precomputed_mask](https://drive.google.com/file/d/173WYHwKCV-Rs-sECEQ2Ia_xffY8d_8lS/view?usp=drive_link)|
+|SynShadow->ISTD+|ISTD+|4.0|[results](https://drive.google.com/file/d/17R1byVIJ10dRduy_ZforioH2GQTQCenZ/view?usp=drive_link) / [weights](https://drive.google.com/file/d/1dp28xws9TJ7gEyBeiSc0zLCQ09ALptTz/view?usp=drive_link) / [precomputed_mask](https://drive.google.com/file/d/1qPi4dA-0TJvYReE2oCoC9zDyGMyxz8kN/view?usp=drive_link)|
+|SynShadow|SRD+|5.7|[results](https://drive.google.com/file/d/1-hpQzJ7gGiwNcllVgFqBs9O-yFR1S1YN/view?usp=drive_link) / [weights](https://drive.google.com/file/d/10wLm8nVXdmXeBiSO5HfnGT3WNY6AvO8m/view?usp=drive_link) / [precomputed_mask](https://drive.google.com/file/d/1zWWIqZV6P09TTuTIfdkz2NlJZ-5z9Bc-/view?usp=drive_link)|
+|SynShadow->SRD+|SRD+|5.2|[results](https://drive.google.com/file/d/13e0AESmIbQxjjvZP9mXjdRYZz6ZQO0s3/view?usp=drive_link) / [weights](https://drive.google.com/file/d/1h_f7O8D8eqNClQ-uKD0MxyGiwhOhIJSi/view?usp=drive_link) / [precomputed_mask](https://drive.google.com/file/d/1MoQPbudiFmHJ1hdcwYOjkdvH_ngRceGb/view?usp=drive_link)|
+|SynShadow|USR|-|[results](https://drive.google.com/file/d/1BM2m9HHXnFN6JLmcD85LLySe3j6E2cON/view?usp=drive_link) / [weights](https://drive.google.com/file/d/10wLm8nVXdmXeBiSO5HfnGT3WNY6AvO8m/view?usp=drive_link) / [precomputed_mask](https://drive.google.com/file/d/1MgH0WWHdzKCWnrMNAMcPNtI6tmBbYhMr/view?usp=drive_link)|
 
 Model: [DHAN](https://arxiv.org/abs/1911.08718)
 | Train | Test | RMSE |      |
 | :-: | :-: | :-: | :-: |
-|SynShadow->ISTD+|ISTD+|4.6|[results](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/results/removal/result_rem_dhan_istd+_finetune_from_synshadow.zip)|
-|SynShadow->SRD+|SRD+|6.6|[results](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/results/removal/result_rem_dhan_srd+_finetune_from_synshadow.zip)|
-|SynShadow|USR|-|[results](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/synthetic_shadow/results/removal/result_rem_dhan_usr_train_synshadow.zip)|
+|SynShadow->ISTD+|ISTD+|4.6|[results](https://drive.google.com/file/d/1ci50ArxqLq5VygyVhvTJH1uUmhuhmYKp/view?usp=drive_link)|
+|SynShadow->SRD+|SRD+|6.6|[results](https://drive.google.com/file/d/1oiI_Vj5IFMrlT67XMsAF8cHmrxjpVtUY/view?usp=drive_link)|
+|SynShadow|USR|-|[results](https://drive.google.com/file/d/1M4CAUvfCdvFnQ_sXuH8ymjhRtaIOGq8e/view?usp=drive_link)|
 
-Note: we have accidentially removed some files and cannot provide some results.
+Note: we have accidentally removed some files and cannot provide some results.
